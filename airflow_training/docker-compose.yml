@@ -55,7 +55,8 @@ services:
       - ./airflow/logs:/opt/airflow/logs
     ports:
       - "8080:8080"
-    command: webserver
+    command: >
+      bash -c "pip install --no-cache-dir psycopg2-binary requests && airflow webserver"
     healthcheck:
       test: ["CMD", "airflow", "db", "check"]
       interval: 10s
@@ -75,7 +76,8 @@ services:
     volumes:
       - ./airflow/dags:/opt/airflow/dags
       - ./airflow/logs:/opt/airflow/logs
-    command: scheduler
+    command: >
+      bash -c "pip install --no-cache-dir psycopg2-binary requests && airflow scheduler"  
     restart: unless-stopped
  
   nifi:
