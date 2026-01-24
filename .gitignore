@@ -1,0 +1,12 @@
+# Airflow logs and temp data
+logs/
+plugins/
+dags/__pycache__/
+__pycache__/
+*.pyc
+
+# Docker
+docker-context-files/
+
+# Environment variables (если есть файл с паролями)
+.env
