@@ -101,7 +101,7 @@ services:
     environment:
       JUPYTER_ENABLE_LAB: 'true'
     volumes:
-      - ./jupyter/notebooks:/home/jovyan/work
+      - ./jupyter/notebooks:/work
     command: >
       bash -c "
       pip install --no-cache-dir psycopg2-binary pandas sqlalchemy jupyter lab &
