@@ -1,6 +1,7 @@
 # ETL_processes_training
 This repository is for teaching ETL processes in the HSE Master's programme in Data Engineering
 # airflow_training
+P.S: Данные для проверки расположенны в папке Airflow/dags (сам DAG, 2 csv-фаила с таблицами в "плоской" форме)
 ## Описание проекта
 Реализация базового ETL-процесса для сбора и обработки разнородных данных (JSON, XML). Пайплайн автоматизирован с помощью Apache Airflow и развернут в Docker-инфраструктуре.
 ## Технологический стек
