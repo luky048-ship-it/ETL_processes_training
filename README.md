@@ -9,7 +9,7 @@
 * Инфраструктура: Docker, Docker-compose, nvim
 
 ## Структура проекта
-
+```
 .
 ├── README.md
 └── airflow_training
@@ -27,7 +27,7 @@
         └── notebooks
             ├── SQL_conclusion.ipynb
             └── read_csv.ipynb
-
+```
 ## Описание реализованных пайплайнов
 
 ### 1. Обработка API и XML (Задание 1)
