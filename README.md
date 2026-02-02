@@ -63,3 +63,7 @@ DAG: weather_etl_final_step
     * Jupyter Lab: http://localhost:8888 (рабочая папка /work)
 
 Все итоговые CSV-файлы и программный код DAG доступны для проверки в директории airflow_training/airflow/dags/.
+
+
+
+*описание составленно с приминенем техонологии нейросетей
